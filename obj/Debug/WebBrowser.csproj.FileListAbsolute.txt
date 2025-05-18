@@ -11,3 +11,12 @@ D:\MMT_Webbrowser\MMT\obj\Debug\WebBrowser.csproj.CoreCompileInputs.cache
 D:\MMT_Webbrowser\MMT\obj\Debug\WebBrowser.csproj.Up2Date
 D:\MMT_Webbrowser\MMT\obj\Debug\WebBrowser.exe
 D:\MMT_Webbrowser\MMT\obj\Debug\WebBrowser.pdb
+D:\MMT_Webbrowser\MMT\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+D:\MMT_Webbrowser\MMT\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+D:\MMT_Webbrowser\MMT\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+D:\MMT_Webbrowser\MMT\bin\Debug\Microsoft.Web.WebView2.Core.dll
+D:\MMT_Webbrowser\MMT\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+D:\MMT_Webbrowser\MMT\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+D:\MMT_Webbrowser\MMT\bin\Debug\Microsoft.Web.WebView2.Core.xml
+D:\MMT_Webbrowser\MMT\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+D:\MMT_Webbrowser\MMT\bin\Debug\Microsoft.Web.WebView2.Wpf.xml

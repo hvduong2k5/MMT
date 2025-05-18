@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.Web.WebView2.Core;
 
 namespace WebBrowser
 {
@@ -17,51 +11,55 @@ namespace WebBrowser
             InitializeComponent();
         }
 
-        private void MainForm_Load(object sender, EventArgs e)
+        private async void MainForm_Load(object sender, EventArgs e)
         {
-            webBrowser1.Navigate("https://www.google.com");
+            await webView.EnsureCoreWebView2Async();  // Khởi tạo WebView2
+            webView.CoreWebView2.Navigate("https://www.google.com");
             txtAddress.Text = "https://www.google.com";
+
+            // Sự kiện thay đổi URL
+            webView.CoreWebView2.NavigationCompleted += CoreWebView2_NavigationCompleted;
         }
+
         private void NavigateToAddress()
         {
             string address = txtAddress.Text;
 
-            // Thêm "http://" nếu không có
             if (!address.StartsWith("http://") && !address.StartsWith("https://"))
             {
-                address = "http://" + address;
+                address = "https://" + address;
             }
 
             try
             {
-                webBrowser1.Navigate(address);
+                webView.CoreWebView2.Navigate(address);
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Không thể tải trang: " + ex.Message, "Lỗi",
-                              MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            if (webBrowser1.CanGoBack)
+            if (webView.CoreWebView2.CanGoBack)
             {
-                webBrowser1.GoBack();
+                webView.CoreWebView2.GoBack();
             }
         }
 
         private void btnForward_Click(object sender, EventArgs e)
         {
-            if (webBrowser1.CanGoForward)
+            if (webView.CoreWebView2.CanGoForward)
             {
-                webBrowser1.GoForward();
+                webView.CoreWebView2.GoForward();
             }
         }
 
         private void btnReload_Click(object sender, EventArgs e)
         {
-            webBrowser1.Refresh();
+            webView.CoreWebView2.Reload();
         }
 
         private void txtAddress_KeyPress(object sender, KeyPressEventArgs e)
@@ -73,9 +71,31 @@ namespace WebBrowser
             }
         }
 
-        private void webBrowser1_Navigated(object sender, WebBrowserNavigatedEventArgs e)
+        private void CoreWebView2_NavigationCompleted(object sender, CoreWebView2NavigationCompletedEventArgs e)
         {
-            txtAddress.Text = webBrowser1.Url.ToString();
+            txtAddress.Text = webView.Source.ToString();
+        }
+
+        private void btnMaxmin_Click(object sender, EventArgs e)
+        {
+            if (this.WindowState == FormWindowState.Normal)
+            {
+                this.WindowState = FormWindowState.Maximized;
+            }
+            else
+            {
+                this.WindowState = FormWindowState.Normal;
+            }
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 }
