@@ -1,3 +1,39 @@
-2025/05/18-20:56:59.529 4bbc Reusing MANIFEST D:\MMT_Webbrowser\MMT\bin\Debug\WebBrowser.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
-2025/05/18-20:56:59.549 4bbc Recovering log #7
-2025/05/18-20:56:59.555 4bbc Reusing old log D:\MMT_Webbrowser\MMT\bin\Debug\WebBrowser.exe.WebView2\EBWebView\Default\Local Storage\leveldb/000007.log 
+2025/05/18-21:58:38.201 8294 Reusing MANIFEST A:\MangMayTinh\MMT\WebBrowser\bin\Debug\WebBrowser.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2025/05/18-21:58:38.209 8294 Recovering log #3
+2025/05/18-21:58:38.212 8294 Reusing old log A:\MangMayTinh\MMT\WebBrowser\bin\Debug\WebBrowser.exe.WebView2\EBWebView\Default\Local Storage\leveldb/000003.log 
+2025/05/18-21:59:15.073 8438 Level-0 table #5: started
+2025/05/18-21:59:15.083 8438 Level-0 table #5: 49857 bytes OK
+2025/05/18-21:59:15.087 8438 Delete type=0 #3
+2025/05/18-21:59:38.238 8438 Level-0 table #7: started
+2025/05/18-21:59:38.253 8438 Level-0 table #7: 132507 bytes OK
+2025/05/18-21:59:38.260 8438 Delete type=0 #4
+2025/05/18-22:13:44.457 8438 Level-0 table #9: started
+2025/05/18-22:13:44.467 8438 Level-0 table #9: 83325 bytes OK
+2025/05/18-22:13:44.470 8438 Delete type=0 #6
+2025/05/18-22:13:50.495 8438 Level-0 table #11: started
+2025/05/18-22:13:50.504 8438 Level-0 table #11: 67567 bytes OK
+2025/05/18-22:13:50.510 8438 Delete type=0 #8
+2025/05/18-22:13:54.226 8438 Level-0 table #13: started
+2025/05/18-22:13:54.235 8438 Level-0 table #13: 56410 bytes OK
+2025/05/18-22:13:54.241 8438 Delete type=0 #10
+2025/05/18-22:14:07.024 8438 Level-0 table #15: started
+2025/05/18-22:14:07.033 8438 Level-0 table #15: 65742 bytes OK
+2025/05/18-22:14:07.037 8438 Delete type=0 #12
+2025/05/18-22:14:07.038 8438 Compacting 4@0 + 1@1 files
+2025/05/18-22:14:07.053 8438 Generated table #16@0: 24 keys, 31713 bytes
+2025/05/18-22:14:07.053 8438 Compacted 4@0 + 1@1 files => 31713 bytes
+2025/05/18-22:14:07.054 8438 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/05/18-22:14:07.056 8438 Delete type=2 #7
+2025/05/18-22:14:07.056 8438 Delete type=2 #9
+2025/05/18-22:14:07.056 8438 Delete type=2 #11
+2025/05/18-22:14:07.057 8438 Delete type=2 #13
+2025/05/18-22:14:07.057 8438 Delete type=2 #15
+2025/05/18-22:14:08.197 8438 Level-0 table #18: started
+2025/05/18-22:14:08.209 8438 Level-0 table #18: 154645 bytes OK
+2025/05/18-22:14:08.217 8438 Delete type=0 #14
+2025/05/18-22:14:17.275 8294 Level-0 table #20: started
+2025/05/18-22:14:17.290 8294 Level-0 table #20: 199004 bytes OK
+2025/05/18-22:14:17.295 8294 Delete type=0 #17
+2025/05/18-22:14:21.948 8438 Level-0 table #22: started
+2025/05/18-22:14:21.957 8438 Level-0 table #22: 49806 bytes OK
+2025/05/18-22:14:21.960 8438 Delete type=0 #19

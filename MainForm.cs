@@ -1,16 +1,22 @@
-﻿using System;
+﻿using Microsoft.Web.WebView2.Core;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
-using Microsoft.Web.WebView2.Core;
 
 namespace WebBrowser
 {
-    public partial class MainForm : Form
+    public partial class MainForm: Form
     {
         public MainForm()
         {
             InitializeComponent();
         }
-
         private async void MainForm_Load(object sender, EventArgs e)
         {
             await webView.EnsureCoreWebView2Async();  // Khởi tạo WebView2
@@ -88,14 +94,6 @@ namespace WebBrowser
             }
         }
 
-        private void btnExit_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void btnClose_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
-        }
+        
     }
 }

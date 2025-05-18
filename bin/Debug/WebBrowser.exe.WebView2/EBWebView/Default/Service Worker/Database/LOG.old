@@ -1,3 +1,2 @@
-2025/05/18-20:56:59.373 6e4 Reusing MANIFEST D:\MMT_Webbrowser\MMT\bin\Debug\WebBrowser.exe.WebView2\EBWebView\Default\Service Worker\Database/MANIFEST-000001
-2025/05/18-20:56:59.375 6e4 Recovering log #3
-2025/05/18-20:56:59.375 6e4 Reusing old log D:\MMT_Webbrowser\MMT\bin\Debug\WebBrowser.exe.WebView2\EBWebView\Default\Service Worker\Database/000003.log 
+2025/05/18-22:12:21.164 7c28 Creating DB A:\MangMayTinh\MMT\WebBrowser\bin\Debug\WebBrowser.exe.WebView2\EBWebView\Default\Service Worker\Database since it was missing.
+2025/05/18-22:12:21.168 7c28 Reusing MANIFEST A:\MangMayTinh\MMT\WebBrowser\bin\Debug\WebBrowser.exe.WebView2\EBWebView\Default\Service Worker\Database/MANIFEST-000001
