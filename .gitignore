@@ -1,0 +1,6 @@
+# Ignore build output
+bin/
+obj/
+
+# Ignore WebView2 cache folders
+*.WebView2/
