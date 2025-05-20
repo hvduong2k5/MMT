@@ -1,15 +1,3 @@
-2025/05/18-22:22:26.717 8c38 Reusing MANIFEST A:\MangMayTinh\MMT\WebBrowser\bin\Debug\WebBrowser.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
-2025/05/18-22:22:26.726 8c38 Recovering log #21
-2025/05/18-22:22:26.731 8c38 Reusing old log A:\MangMayTinh\MMT\WebBrowser\bin\Debug\WebBrowser.exe.WebView2\EBWebView\Default\Local Storage\leveldb/000021.log 
-2025/05/18-22:22:51.675 8c38 Level-0 table #25: started
-2025/05/18-22:22:51.679 8c38 Level-0 table #25: 50945 bytes OK
-2025/05/18-22:22:51.682 8c38 Delete type=0 #21
-2025/05/18-22:22:51.682 8c40 Compacting 4@0 + 1@1 files
-2025/05/18-22:22:51.688 8c40 Generated table #26@0: 25 keys, 19084 bytes
-2025/05/18-22:22:51.688 8c40 Compacted 4@0 + 1@1 files => 19084 bytes
-2025/05/18-22:22:51.689 8c40 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/05/18-22:22:51.691 8c40 Delete type=2 #16
-2025/05/18-22:22:51.691 8c40 Delete type=2 #18
-2025/05/18-22:22:51.691 8c40 Delete type=2 #20
-2025/05/18-22:22:51.691 8c40 Delete type=2 #22
-2025/05/18-22:22:51.691 8c40 Delete type=2 #25
+2025/05/20-21:26:47.802 6994 Reusing MANIFEST A:\MangMayTinh\MMT\WebBrowser\bin\Debug\WebBrowser.exe.WebView2\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2025/05/20-21:26:47.818 6994 Recovering log #24
+2025/05/20-21:26:47.820 6994 Reusing old log A:\MangMayTinh\MMT\WebBrowser\bin\Debug\WebBrowser.exe.WebView2\EBWebView\Default\Local Storage\leveldb/000024.log 

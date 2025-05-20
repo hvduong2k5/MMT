@@ -7,15 +7,15 @@
       "RelativeMoniker": "D:0:0:{B398D899-9C17-4BF4-8F30-80C664511A83}|WebBrowser.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B398D899-9C17-4BF4-8F30-80C664511A83}|WebBrowser.csproj|a:\\mangmaytinh\\mmt\\webbrowser\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B398D899-9C17-4BF4-8F30-80C664511A83}|WebBrowser.csproj|A:\\MangMayTinh\\MMT\\WebBrowser\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B398D899-9C17-4BF4-8F30-80C664511A83}|WebBrowser.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B398D899-9C17-4BF4-8F30-80C664511A83}|WebBrowser.csproj|a:\\mangmaytinh\\mmt\\webbrowser\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{B398D899-9C17-4BF4-8F30-80C664511A83}|WebBrowser.csproj|A:\\MangMayTinh\\MMT\\WebBrowser\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{B398D899-9C17-4BF4-8F30-80C664511A83}|WebBrowser.csproj|solutionrelative:packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B398D899-9C17-4BF4-8F30-80C664511A83}|WebBrowser.csproj|a:\\mangmaytinh\\mmt\\webbrowser\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B398D899-9C17-4BF4-8F30-80C664511A83}|WebBrowser.csproj|A:\\MangMayTinh\\MMT\\WebBrowser\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B398D899-9C17-4BF4-8F30-80C664511A83}|WebBrowser.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,8 +38,7 @@
               "RelativeToolTip": "packages.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-05-18T14:58:05.203Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T14:58:05.203Z"
             },
             {
               "$type": "Document",
@@ -49,7 +48,7 @@
               "RelativeDocumentMoniker": "MainForm.cs",
               "ToolTip": "A:\\MangMayTinh\\MMT\\WebBrowser\\MainForm.cs",
               "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwGMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T14:51:19.57Z",
               "EditorCaption": ""
@@ -63,8 +62,7 @@
               "ToolTip": "A:\\MangMayTinh\\MMT\\WebBrowser\\MainForm.cs [Design]",
               "RelativeToolTip": "MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T14:50:32.093Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-18T14:50:32.093Z"
             },
             {
               "$type": "Document",
@@ -76,8 +74,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T14:52:53.924Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T14:52:53.924Z"
             }
           ]
         }
